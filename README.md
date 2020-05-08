@@ -1,6 +1,6 @@
 # 19-Abgabe01-Zengerer-Plattner
 
-In diesem Projekt geht es darum, die bisher behandelten Themen zu kombinieren und dieses Wissen in einem konkreten Programm anzuwenden. Dieses Programm besteht aus vier vorimplementierten Klassen (`Drink`, `SimpleDrink`, `Liquid`, `LiquidTest`). Das Projekt soll nun von uns mit einer weitern Klasse (`MixedDrink`) und der dazugehörigen Testklasse (`MixedDrinkTest)`erweitert werden. Im Fokus dieser Aufgabe stehen die Testklassen und das Dokumentieren des Codes (JavaDoc). Nebenbei soll ein Labreport geführt werden.
+In diesem Projekt geht es darum, die bisher behandelten Themen zu kombinieren und dieses Wissen in einem konkreten Programm anzuwenden. Dieses Programm besteht aus vier vorimplementierten Klassen (`Drink`, `SimpleDrink`, `Liquid`, `LiquidTest`). Das Projekt soll nun von uns mit einer weiteren Klasse (`MixedDrink`) und der dazugehörigen Testklasse (`MixedDrinkTest)`erweitert werden. Im Fokus dieser Aufgabe stehen die Testklassen und das Dokumentieren des Codes (JavaDoc). Nebenbei soll ein Labreport geführt werden.
 
 ## Geplante Erweiterungen
 
@@ -8,7 +8,7 @@ Die nächsten Schritte sind also:
 
 - Erstellen einer weiteren Klasse `MixedDrink`
 - Konstruktor erstellen
-  - `MixecDrink(String name, Liquid L)`
+  - `MixedDrink(String name, Liquid L)`
 - Methoden von `Drink`in `MixedDrink`implementieren 
   - `getVolume()`
   - `getAlcoholPercent()`
