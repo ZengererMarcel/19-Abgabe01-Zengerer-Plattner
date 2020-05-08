@@ -28,7 +28,7 @@ public class MixedDrink extends Drink{
      */
     @Override
     public double getVolume() {
-        int volume = 0;
+        double volume = 0;
         for(int i = 0; i < liquidArray.length; i++){
             volume += liquidArray[i].getVolume();
         }
