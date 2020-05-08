@@ -10,17 +10,17 @@ Oben erwähntes Programm besteht aus 3 Klassen (`Drink`, `SimpleDrink` und `Liqu
 
 Die nächsten Schritte sind also:
 - Testklassen zu `Drink` und `SimpleDrink` erstellen
-- Methoden zum Testen in `DrinkTest` erstellen:
+- Methoden zum Testen in `DrinkTest` erstellen
     - 
     - 
     - 
-    ... (Elemente aus Drink die zu Testen sind)
+ (Elemente aus Drink die zu Testen sind)
     
 - Methoden zum Testen in `SimpleDrinkTest`erstellen
     - 
     -
     -
-    ... (Elemente in SimpleDrink die zu testen sind)
+    (Elemente in SimpleDrink die zu testen sind)
 
 
 ## Relevantes Code-Schnipsel
