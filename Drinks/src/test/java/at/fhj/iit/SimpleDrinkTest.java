@@ -12,14 +12,15 @@ import org.junit.jupiter.api.Test;
  */
 @DisplayName("Testing SimpleDrink implementation")
 public class SimpleDrinkTest {
-    private Liquid nonA, alcoholic;
+    private SimpleDrink nonA, alcoholic;
 
     /**
      * inits an alcoholic and a nonalcoholic simple drink for EACH test
      */
     @BeforeEach
     void setup() {
-
+        nonA = new SimpleDrink("Cola", new Liquid("Cola", 1,0));
+        alcoholic = new SimpleDrink("Beer", new Liquid("Beer", 0.5,5.1));
     }
 
     @Test
