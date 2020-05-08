@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df4259d-72f5-4e43-a01a-9849ef94a37a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhj/iit/MixedDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhj/iit/MixedDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/iit/MixedDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/MixedDrinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/at/fhj/iit/MixedDrinkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/at/fhj/iit/MixedDrinkTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="6df4259d-72f5-4e43-a01a-9849ef94a37a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,16 +177,5 @@
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
     <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588949095219" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/at/fhj/iit/MixedDrinkTest.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

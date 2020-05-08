@@ -71,12 +71,7 @@ public class MixedDrinkTest {
     @Test
     @DisplayName("Testing getVolume alcoholic")
     public void testGetVolumeAlcoholic(){
-
-    }
-    @Test
-    @DisplayName("Testing getVolume negative alcoholic")
-    public void testGetVolumeNegativeAlcoholic(){
-
+        assertEquals(alcoholic.getVolume(), 0.55 , 0.001);
     }
     @Test
     @DisplayName("Testing getAlcoholPercent non alcoholic")
