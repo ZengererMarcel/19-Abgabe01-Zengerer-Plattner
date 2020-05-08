@@ -42,8 +42,13 @@ public class MixedDrink extends Drink{
      */
     @Override
     public double getAlcoholPercent() {
-        //TODO
-        return 1;
+        double alcohol = 0;
+
+        for(Liquid l : liquidArray) {
+            alcohol = l.getVolume() * l.getAlcoholPercent() / 100;
+        }
+
+        return alcohol * 100 / getVolume();
     }
 
     /**
