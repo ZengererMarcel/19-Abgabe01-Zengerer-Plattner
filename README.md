@@ -8,7 +8,7 @@ Die nächsten Schritte sind also:
 
 - Erstellen einer weiteren Klasse `MixedDrink`
 - Konstruktor erstellen
-  - `MixedDrink(String name, Liquid L)`
+  - `MixedDrink(String name, Liquid[] L)`
 - Methoden von `Drink`in `MixedDrink`implementieren 
   - `getVolume()`
   - `getAlcoholPercent()`
