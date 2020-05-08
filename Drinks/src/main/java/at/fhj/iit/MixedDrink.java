@@ -3,7 +3,7 @@ package at.fhj.iit;
 /**
  * Class represents a mixed drink liquid which can be used in drinks
  */
-public class MixedDrink extends Drink{
+public class MixedDrink extends Drink {
 
     /**
      * mixed drinks contains more than one liquid
@@ -13,7 +13,7 @@ public class MixedDrink extends Drink{
     /**
      * Creates a MixedDrink Object with given name and Liquid Array
      *
-     * @param name  name of drink
+     * @param name        name of drink
      * @param liquidArray contains the diffrent liquids for the mixed drink
      */
     public MixedDrink(String name, Liquid[] liquidArray) {
@@ -29,7 +29,7 @@ public class MixedDrink extends Drink{
     @Override
     public double getVolume() {
         double volume = 0;
-        for(int i = 0; i < liquidArray.length; i++){
+        for (int i = 0; i < liquidArray.length; i++) {
             volume += liquidArray[i].getVolume();
         }
         return volume;
@@ -44,8 +44,8 @@ public class MixedDrink extends Drink{
     public double getAlcoholPercent() {
         double alcohol = 0;
 
-        for(Liquid l : liquidArray) {
-            alcohol = l.getVolume() * l.getAlcoholPercent() / 100;
+        for (Liquid l : liquidArray) {
+            alcohol += l.getVolume() * (l.getAlcoholPercent() / 100);
         }
 
         return alcohol * 100 / getVolume();
@@ -58,31 +58,26 @@ public class MixedDrink extends Drink{
      * @return true when alcoholic liquids are present, otherwise false
      */
     @Override
-    public boolean isAlcoholic() {
+    public boolean isAlcoholic() throws NegativeAlcoholValue {
 
-        for(int i = 0; i < liquidArray.length; i++) {
+        for (int i = 0; i < liquidArray.length; i++) {
 
-            try {
-                if (liquidArray[i].getAlcoholPercent() > 0)
-                    return true;
-                else if (liquidArray[i].getAlcoholPercent() == 0)
-                    return false;
-                else
-                    throw new CustomException("Alcohol percent is negative");
-            }catch(CustomException ex){
-                ex.printStackTrace();
-            }
+
+            if (liquidArray[i].getAlcoholPercent() > 0)
+                return true;
+            else if (liquidArray[i].getAlcoholPercent() < 0)
+                throw new NegativeAlcoholValue("Alcohol percent is negative");
+
         }
         return false;
     }
 }
 
 
-
 /**
  * class represents a custom exception
  */
-class CustomException extends Exception {
+class NegativeAlcoholValue extends Exception {
 
     /**
      * Creates an Exception Object with a given message
@@ -90,7 +85,7 @@ class CustomException extends Exception {
      * @param message represents the error message which will be shown
      */
 
-    public CustomException(String message) {
+    public NegativeAlcoholValue(String message) {
         super(message);
     }
 }
