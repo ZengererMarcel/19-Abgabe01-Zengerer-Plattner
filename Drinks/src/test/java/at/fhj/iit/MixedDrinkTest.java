@@ -53,7 +53,15 @@ public class MixedDrinkTest {
     @Test
     @DisplayName("Testing constructor negative alcoholic")
     public void testConstructorNegativeAlcoholic(){
+        assertEquals(negativeA.name, "Rum-Cola");
 
+        assertEquals(negativeA.liquidArray[0].getName(), "Cola");
+        assertEquals(negativeA.liquidArray[0].getVolume(), 0.5);
+        assertEquals(negativeA.liquidArray[0].getAlcoholPercent(), 0.0);
+
+        assertEquals(negativeA.liquidArray[1].getName(), "Rum");
+        assertEquals(negativeA.liquidArray[1].getVolume(), 0.05);
+        assertEquals(negativeA.liquidArray[1].getAlcoholPercent(), -7);
     }
     @Test
     @DisplayName("Testing getVolume non alcoholic")
