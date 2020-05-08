@@ -8,21 +8,21 @@ Die nächsten Schritte sind also:
 
 - Erstellen einer weiteren Klasse `MixedDrink`
 - Konstruktor erstellen
-        - `MixecDrink(String name, Liquid L)`
+  - `MixecDrink(String name, Liquid L)`
 - Methoden von `Drink`in `MixedDrink`implementieren 
-        - `getVolume()`
-        - `getAlcoholPercent()`
-        - `isAlcoholic()`
+  - `getVolume()`
+  - `getAlcoholPercent()`
+  - `isAlcoholic()`
 - JavaDoc zu den Methoden erstellen
 - Methoden in `MixedDrink`ausarbeiten
 - Fehlerfall ausarbeiten
 - Testklasse zu `MixedDrink`erstellen (`MixedDrinkTest`)
 - Für jede Methode und den Konstruktor in `MixedDrink` (mindestens) eine eigene         Testmethode erstellen
-        - `testGetVolume()`
-        - `testGetALcoholPercent()`
-        - `testIsAlcoholic()`
+  - `testGetVolume()`
+  - `testGetALcoholPercent()`
+  - `testIsAlcoholic()`
 - Testmethode erstellen, die prüft ob Exceptions geworfen werden erstellen
-        - `testException()`
+  - `testException()`
 - JavaDoc für diese Testmethoden erstellen
 - Testmethoden ausarbeiten
 
