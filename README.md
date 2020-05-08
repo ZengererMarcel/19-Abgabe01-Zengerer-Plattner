@@ -1,26 +1,30 @@
 # 19-Abgabe01-Zengerer-Plattner
 
-
-In diesem Projekt geht es darum, die bisher behandelten Themen zu kombinieren und dieses Wissen in einem konkreten Programm anzuwenden.
-weitere Beschreibung?
-
+In diesem Projekt geht es darum, die bisher behandelten Themen zu kombinieren und dieses Wissen in einem konkreten Programm anzuwenden. Dieses Programm besteht aus vier vorimplementierten Klassen (`Drink`, `SimpleDrink`, `Liquid`, `LiquidTest`). Das Projekt soll nun von uns mit einer weitern Klasse (`MixedDrink`) und der dazugehörigen Testklasse (`MixedDrinkTest)`erweitert werden. Im Fokus dieser Aufgabe stehen die Testklassen und das Dokumentieren des Codes (JavaDoc). Nebenbei soll ein Labreport geführt werden.
 
 ## Geplante Erweiterungen
-Oben erwähntes Programm besteht aus 3 Klassen (`Drink`, `SimpleDrink` und `Liquid`). Diese Klassen sollen nun mit Hilfe von JUnit getestet werden. Für `Liquid` ist dies bereits vorgegeben.
 
 Die nächsten Schritte sind also:
-- Testklassen zu `Drink` und `SimpleDrink` erstellen
-- Methoden zum Testen in `DrinkTest` erstellen
-    - 
-    - 
-    - 
- (Elemente aus Drink die zu Testen sind)
-    
-- Methoden zum Testen in `SimpleDrinkTest`erstellen
-    - 
-    -
-    -
-    (Elemente in SimpleDrink die zu testen sind)
+
+- Erstellen einer weiteren Klasse `MixedDrink`
+- Konstruktor erstellen
+        - `MixecDrink(String name, Liquid L)`
+- Methoden von `Drink`in `MixedDrink`implementieren 
+        - `getVolume()`
+        - `getAlcoholPercent()`
+        - `isAlcoholic()`
+- JavaDoc zu den Methoden erstellen
+- Methoden in `MixedDrink`ausarbeiten
+- Fehlerfall ausarbeiten
+- Testklasse zu `MixedDrink`erstellen (`MixedDrinkTest`)
+- Für jede Methode und den Konstruktor in `MixedDrink` (mindestens) eine eigene         Testmethode erstellen
+        - `testGetVolume()`
+        - `testGetALcoholPercent()`
+        - `testIsAlcoholic()`
+- Testmethode erstellen, die prüft ob Exceptions geworfen werden erstellen
+        - `testException()`
+- JavaDoc für diese Testmethoden erstellen
+- Testmethoden ausarbeiten
 
 
 ## Relevantes Code-Schnipsel
