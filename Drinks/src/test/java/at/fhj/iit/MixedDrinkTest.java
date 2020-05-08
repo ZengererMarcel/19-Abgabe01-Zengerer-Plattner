@@ -20,14 +20,23 @@ public class MixedDrinkTest {
     @BeforeEach
     void setup() {
         nonA = new MixedDrink("Spezi", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Fanta", 0.5, 0)});
-        alcoholic = new MixedDrink("Rum-Cola", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Rum", 0.1, 37.5)});
-        nonA = new MixedDrink("Spezi", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Rum", 0.1, -7)});
+        alcoholic = new MixedDrink("Rum-Cola", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Rum", 0.05, 37.5)});
+        nonA = new MixedDrink("Spezi", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Rum", 0.05, -7)});
     }
 
     @Test
     @DisplayName("Testing constructor non alcoholic")
     public void testConstructorNonAlcoholic(){
+        Liquid[] l = new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Fanta", 0.5, 0)};
+        assertEquals(nonA.name, "Spezi");
 
+        assertEquals(nonA.liquidArray[0].getName(), "Cola");
+        assertEquals(nonA.liquidArray[0].getVolume(), 0.5);
+        assertEquals(nonA.liquidArray[0].getAlcoholPercent(), 0.0);
+
+        assertEquals(nonA.liquidArray[1].getName(), "Fanta");
+        assertEquals(nonA.liquidArray[1].getVolume(), 0.5);
+        assertEquals(nonA.liquidArray[1].getAlcoholPercent(), 0.0);
     }
     @Test
     @DisplayName("Testing constructor alcoholic")

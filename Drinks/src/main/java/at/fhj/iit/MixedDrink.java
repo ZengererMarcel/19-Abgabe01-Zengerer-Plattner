@@ -8,7 +8,7 @@ public class MixedDrink extends Drink{
     /**
      * mixed drinks contains more than one liquid
      */
-    Liquid[] liquidArray;
+    protected Liquid[] liquidArray;
 
     /**
      * Creates a MixedDrink Object with given name and Liquid Array

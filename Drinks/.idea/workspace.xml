@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6df4259d-72f5-4e43-a01a-9849ef94a37a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/fhj/iit/MixedDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/fhj/iit/MixedDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/at/fhj/iit/MixedDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/fhj/iit/MixedDrinkTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,29 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
+  <component name="RunManager">
+    <configuration name="MixedDrinkTest.testConstructorNonAlcoholic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Drinks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.fhj.iit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.fhj.iit" />
+      <option name="MAIN_CLASS_NAME" value="at.fhj.iit.MixedDrinkTest" />
+      <option name="METHOD_NAME" value="testConstructorNonAlcoholic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MixedDrinkTest.testConstructorNonAlcoholic" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +77,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="2376" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588948646281">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="92" y="92" width="2376" height="866" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588948646281" />
     <state x="1085" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1588939040027">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
@@ -66,5 +94,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="67" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1536.824@0.0.1536.824" timestamp="1588941070365" />
+    <state width="2515" height="284" key="GridCell.Tab.0.bottom" timestamp="1588949130562">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="284" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588949130562" />
+    <state width="2515" height="284" key="GridCell.Tab.0.center" timestamp="1588949130562">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="284" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588949130562" />
+    <state width="2515" height="284" key="GridCell.Tab.0.left" timestamp="1588949130562">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="284" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588949130562" />
+    <state width="2515" height="284" key="GridCell.Tab.0.right" timestamp="1588949130562">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="284" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588949130562" />
+    <state width="2515" height="351" key="GridCell.Tab.1.bottom" timestamp="1588948237003">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="351" key="GridCell.Tab.1.bottom/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588948237003" />
+    <state width="2515" height="351" key="GridCell.Tab.1.center" timestamp="1588948237002">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="351" key="GridCell.Tab.1.center/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588948237002" />
+    <state width="2515" height="351" key="GridCell.Tab.1.left" timestamp="1588948237002">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="351" key="GridCell.Tab.1.left/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588948237002" />
+    <state width="2515" height="351" key="GridCell.Tab.1.right" timestamp="1588948237002">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2515" height="351" key="GridCell.Tab.1.right/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588948237002" />
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1588949095219">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="943" y="227" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.840/0.0.2560.1050@0.0.2560.1050" timestamp="1588949095219" />
   </component>
 </project>
