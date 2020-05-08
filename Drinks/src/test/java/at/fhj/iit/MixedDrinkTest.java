@@ -12,14 +12,16 @@ import org.junit.jupiter.api.Test;
  */
 @DisplayName("Testing MixedDrink implementation")
 public class MixedDrinkTest {
-    private Liquid nonA, alcoholic, negativeA;
+    private MixedDrink nonA, alcoholic, negativeA;
 
     /**
      * inits an alcoholic, a nonalcoholic and a negative alcoholic mixed drink for EACH test
      */
     @BeforeEach
     void setup() {
-
+        nonA = new MixedDrink("Spezi", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Fanta", 0.5, 0)});
+        alcoholic = new MixedDrink("Rum-Cola", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Rum", 0.1, 37.5)});
+        nonA = new MixedDrink("Spezi", new Liquid[]{new Liquid("Cola", 0.5, 0), new Liquid("Rum", 0.1, -7)});
     }
 
     @Test
