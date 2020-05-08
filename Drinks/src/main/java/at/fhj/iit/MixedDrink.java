@@ -14,7 +14,7 @@ public class MixedDrink extends Drink{
      * Creates a MixedDrink Object with given name and Liquid Array
      *
      * @param name  name of drink
-     * @param liquidArray contains the driffrent liquids for the mixed drink
+     * @param liquidArray contains the diffrent liquids for the mixed drink
      */
     public MixedDrink(String name, Liquid[] liquidArray) {
         super(name);
@@ -28,8 +28,11 @@ public class MixedDrink extends Drink{
      */
     @Override
     public double getVolume() {
-        //TODO
-        return 1;
+        int volume = 0;
+        for(int i = 0; i < liquidArray.length; i++){
+            volume += liquidArray[i].getVolume();
+        }
+        return volume;
     }
 
     /**
