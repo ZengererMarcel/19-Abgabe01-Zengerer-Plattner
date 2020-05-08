@@ -59,17 +59,18 @@ public class MixedDrink extends Drink{
      */
     @Override
     public boolean isAlcoholic() {
-        Cause c = new Cause();
 
         for(int i = 0; i < liquidArray.length; i++) {
 
             try {
-                c.check(liquidArray[i].getAlcoholPercent());
-                if (liquidArray[i].getAlcoholPercent() > 0) {
+                if (liquidArray[i].getAlcoholPercent() > 0)
                     return true;
-                }
-            }catch(CustomException e){
-                e.printStackTrace();
+                else if (liquidArray[i].getAlcoholPercent() == 0)
+                    return false;
+                else
+                    throw new CustomException("Alcohol percent is negative");
+            }catch(CustomException ex){
+                ex.printStackTrace();
             }
         }
         return false;
@@ -93,29 +94,3 @@ class CustomException extends Exception {
         super(message);
     }
 }
-
-
-/**
- * class checks if a alcohol percentage is negative and throws an exception if this is the case
- */
-class Cause {
-
-    /**
-     * Creates a Cause Object
-     */
-    public Cause(){}
-
-
-    /**
-     * checks if a alcohol percent is negative. if that is the case, it will throw an exception
-     */
-    public void check(double alcoholPercent) throws CustomException {
-
-        if (alcoholPercent < 0) {
-            throw new CustomException("Alcohol Percent is negative!");
-        }
-        }
-    }
-
-
-
