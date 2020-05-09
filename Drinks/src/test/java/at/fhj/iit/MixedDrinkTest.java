@@ -99,22 +99,16 @@ public class MixedDrinkTest {
 
     @Test
     @DisplayName("Testing isAlcoholic non alcoholic")
-    public void testIsAlcoholicNonAlcoholic() {
-        try {
+    public void testIsAlcoholicNonAlcoholic() throws NegativeAlcoholValue {
             assertEquals(nonA.isAlcoholic(), false);
-        } catch (NegativeAlcoholValue ex) {
-            ex.printStackTrace();
-        }
     }
 
     @Test
     @DisplayName("Testing isAlcoholic alcoholic")
-    public void testIsAlcoholicAlcoholic() {
-        try {
+    public void testIsAlcoholicAlcoholic() throws NegativeAlcoholValue {
+
             assertEquals(alcoholic.isAlcoholic(), true);
-        } catch (NegativeAlcoholValue ex) {
-            ex.printStackTrace();
-        }
+
     }
 
     @Test
